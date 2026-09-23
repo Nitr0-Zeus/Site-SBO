@@ -2,7 +2,7 @@
 
 Site institucional da **SBO Comércio de Peças e Equipamentos**, de Pinhais (PR). A empresa aluga máquinas, vende peças originais e multimarcas e faz assistência técnica para construção civil, indústria e infraestrutura na Região Metropolitana de Curitiba.
 
-Site no ar: <https://www.sboequipamentos.com.br/>
+Site no ar: <https://sboaapa.com.br/>
 
 ## Estrutura
 
