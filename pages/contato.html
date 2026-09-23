@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | SBO</title>
+  <meta name="description" content="Fale com a SBO: solicite orçamento de locação, peças, venda ou manutenção pelo WhatsApp, telefone ou e-mail. Atendimento em Pinhais, Curitiba e Região.">
+  <link rel="canonical" href="https://www.sboequipamentos.com.br/pages/contato.html">
+  <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
+  <link rel="apple-touch-icon" href="../assets/images/sbo-logo.png">
+  <meta name="theme-color" content="#004080">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SBO - Comércio de Peças e Equipamentos">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Contato | SBO">
+  <meta property="og:description" content="Solicite orçamento de locação, peças, venda ou manutenção pelo WhatsApp, telefone ou e-mail.">
+  <meta property="og:url" content="https://www.sboequipamentos.com.br/pages/contato.html">
+  <meta property="og:image" content="https://www.sboequipamentos.com.br/assets/images/og-sbo-1200x630.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="SBO — Locação, peças e equipamentos para construção em Pinhais-PR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.sboequipamentos.com.br/assets/images/og-sbo-1200x630.png">
+  <meta name="twitter:image:alt" content="SBO — Locação, peças e equipamentos para construção em Pinhais-PR">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="has-hero-header">
+  <!-- ======================= CABEÇALHO GLOBAL (FIXO) ==========================
+     Logo, navegação principal, CTA "Solicitar Orçamento" e botão hambúrguer
+     (menu mobile). Compartilhado por todas as páginas. -->
+  <header class="header header--overlay">
+    <div class="header__container">
+      <a href="../index.html" class="header__logo">
+        <img class="header__logo-img" src="../assets/images/sbo-logo.png" alt="SBO - Comércio de Peças e Equipamentos para Construção Civil">
+      </a>
+      <nav class="header__nav">
+        <a href="produtos.html" class="header__nav-link">Produtos</a>
+        <a href="servicos.html" class="header__nav-link">Serviços</a>
+        <a href="locacao.html" class="header__nav-link">Locação</a>
+        <a href="venda.html" class="header__nav-link">Venda</a>
+      </nav>
+
+      <a href="https://wa.me/554136671277?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20SBO%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener" class="header__cta">Solicitar Orçamento</a>
+
+      <button class="header__toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+  <!-- ========================= MENU MOBILE (GAVETA) ============================
+     Sobreposição escura + gaveta lateral usada em telas pequenas.
+     Aberto/fechado pelo script global (assets/js/main.js). -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu__overlay"></div>
+    <nav class="mobile-menu__drawer">
+      <a href="produtos.html" class="mobile-menu__link">Produtos</a>
+      <a href="servicos.html" class="mobile-menu__link">Serviços</a>
+      <a href="locacao.html" class="mobile-menu__link">Locação</a>
+      <a href="venda.html" class="mobile-menu__link">Venda</a>
+      <a href="https://wa.me/554136671277?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20SBO%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener" class="mobile-menu__cta">Solicitar Orçamento</a>
+    </nav>
+  </div>
+  <!-- ============================ CONTEÚDO PRINCIPAL =========================== -->
+  <main class="main">
+    <!-- Cabeçalho da página interna: título, subtítulo e fundo institucional. -->
+    <section class="page-hero page-hero--contato">
+      <div class="page-hero__background" role="img" aria-label="Equipe comercial SBO"></div>
+      <div class="page-hero__overlay"></div>
+      <div class="page-hero__container">
+        <div class="page-hero__content">
+          <div class="page-hero__badges">
+            <span class="page-hero__badge-item">SBO · DESDE 1990</span>
+            <span class="page-hero__badge-item page-hero__badge-item--primary">ORÇAMENTO DIRETO COM A EQUIPE</span>
+          </div>
+          <h1 class="page-hero__title">
+            <span class="page-hero__title-line page-hero__title-line--accent">SOLICITE UMA</span>
+            <span class="page-hero__title-line page-hero__title-line--primary">PROPOSTA</span>
+          </h1>
+          <p class="page-hero__text">
+            Fale com nossa equipe comercial pelo WhatsApp e receba seu orçamento com agilidade.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato: formulário de orçamento (validação via script inline) + canais
+     alternativos de atendimento. -->
+    <section class="contact">
+      <div class="contact__container">
+        <div class="contact__grid">
+          <!-- Painel de orçamento: os campos montam a mensagem e abrem o WhatsApp
+     da SBO com os dados preenchidos (sem envio por e-mail). -->
+          <div class="contact__form-panel" data-reveal="left">
+            <h2 class="contact__title">Solicite seu Orçamento</h2>
+            <p class="contact__hint">Preencha os campos abaixo e envie diretamente pelo WhatsApp da nossa equipe.</p>
+            <form class="contact__form" id="budgetForm" novalidate>
+              <div class="contact__field">
+                <label class="contact__label" for="nome">Nome completo *</label>
+                <input class="contact__input" type="text" id="nome" name="nome" autocomplete="name" placeholder="Seu nome">
+                <p class="contact__error" id="erro-nome"></p>
+              </div>
+
+              <div class="contact__field">
+                <label class="contact__label" for="email">E-mail *</label>
+                <input class="contact__input" type="email" id="email" name="email" autocomplete="email" placeholder="voce@empresa.com.br">
+                <p class="contact__error" id="erro-email"></p>
+              </div>
+
+              <div class="contact__field">
+                <label class="contact__label" for="telefone">Telefone *</label>
+                <input class="contact__input" type="tel" id="telefone" name="telefone" autocomplete="tel" placeholder="(00) 0000-0000">
+                <p class="contact__error" id="erro-telefone"></p>
+              </div>
+
+              <div class="contact__field">
+                <label class="contact__label" for="necessidade">Tipo de necessidade *</label>
+                <select class="contact__input" id="necessidade" name="necessidade">
+                  <option value="">Selecione uma opção</option>
+                  <option value="produtos">Produtos</option>
+                  <option value="locacao">Locação</option>
+                  <option value="venda">Venda</option>
+                  <option value="manutencao">Manutenção</option>
+                </select>
+                <p class="contact__error" id="erro-necessidade"></p>
+              </div>
+
+              <div class="contact__field">
+                <label class="contact__label" for="mensagem">Mensagem *</label>
+                <textarea class="contact__input" id="mensagem" name="mensagem" rows="5" placeholder="Descreva sua necessidade..."></textarea>
+                <p class="contact__error" id="erro-mensagem"></p>
+              </div>
+
+              <button class="contact__submit" type="submit">Enviar via WhatsApp</button>
+            </form>
+
+            <div class="contact__success" id="successBox" role="status" aria-live="polite" hidden>
+              <div class="contact__success-icon">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+                </svg>
+              </div>
+              <h3 class="contact__success-title">Abrindo o WhatsApp!</h3>
+              <p class="contact__success-text">Continue a conversa por lá para concluir sua solicitação. Se o WhatsApp não abrir, fale conosco pelo telefone (41) 3667-1277.</p>
+            </div>
+          </div>
+
+          <!-- Canais alternativos: telefone, WhatsApp, e-mail e endereço. -->
+          <aside class="contact__info" data-reveal="right">
+            <h3 class="contact__info-title">Outros canais</h3>
+            <ul class="contact__channels">
+              <li>
+                <span class="contact__channel-label">WhatsApp</span>
+                <a href="https://wa.me/554136671277?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20SBO%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener" class="contact__channel-value">(41) 3667-1277</a>
+              </li>
+              <li>
+                <span class="contact__channel-label">Celular</span>
+                <a href="tel:+5541985174316" class="contact__channel-value">(41) 98517-4316</a>
+              </li>
+              <li>
+                <span class="contact__channel-label">E-mail</span>
+                <a href="mailto:contato@sboequipamentos.com.br" class="contact__channel-value">contato@sboequipamentos.com.br</a>
+              </li>
+              <li>
+                <span class="contact__channel-label">Endereço</span>
+                <span class="contact__channel-value">Rua Guilherme Weiss, 208 · Pinhais - PR · 83323-200<br>Atendimento em Pinhais, Curitiba e Região Metropolitana</span>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== MARQUEE =========================================== -->
+  <section class="products-marquee">
+    <div class="products-marquee__track">
+      <div class="products-marquee__item">
+        <span class="products-marquee__text">LOCAÇÃO SEM COMPLICAÇÃO</span>
+        <span class="products-marquee__sep">+</span>
+      </div>
+      <div class="products-marquee__item">
+        <span class="products-marquee__text">PEÇAS PARA MANTER O RITMO</span>
+        <span class="products-marquee__sep">+</span>
+      </div>
+      <div class="products-marquee__item">
+        <span class="products-marquee__text">TÉCNICA QUE PROTEGE</span>
+        <span class="products-marquee__sep">+</span>
+      </div>
+      <div class="products-marquee__item">
+        <span class="products-marquee__text">VENDA COM ORIENTAÇÃO</span>
+        <span class="products-marquee__sep">+</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RODAPÉ GLOBAL (COMPARTILHADO) ====================== -->
+  <footer class="footer" id="contato">
+    <div class="footer__cta-bar">
+      <div class="footer__cta-bar-inner">
+        <p class="footer__cta-bar-text">Pronto para acelerar a sua obra? Fale com um especialista.</p>
+        <a href="https://wa.me/554136671277?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20SBO%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener" class="footer__cta-bar-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Solicitar Orçamento via WhatsApp
+        </a>
+      </div>
+    </div>
+    <div class="footer__container">
+      <div class="footer__col footer__col--brand">
+        <a href="../index.html" class="footer__logo">
+          <img class="footer__logo-img" src="../assets/images/sbo-logo.png" alt="SBO - Peças e Equipamentos">
+        </a>
+        <p class="footer__brand-text">
+          Locação, venda e manutenção especializada de equipamentos e peças para a construção civil, indústria e infraestrutura.
+        </p>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/sbopinhais/" class="footer__social-link" target="_blank" rel="noopener" aria-label="Instagram da SBO">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://www.facebook.com/sbopinhais/?locale=pt_BR" class="footer__social-link" target="_blank" rel="noopener" aria-label="Facebook da SBO">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h3 class="footer__heading">Navegação</h3>
+        <ul class="footer__list">
+          <li><a href="../index.html" class="footer__link">Quem Somos</a></li>
+          <li><a href="produtos.html" class="footer__link">Equipamentos</a></li>
+          <li><a href="produtos.html" class="footer__link">Peças</a></li>
+          <li><a href="locacao.html" class="footer__link">Locação</a></li>
+          <li><a href="servicos.html" class="footer__link">Serviços / Manutenção</a></li>
+          <li><a href="contato.html" class="footer__link">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3 class="footer__heading">Contato</h3>
+        <ul class="footer__list">
+          <li>
+            <a href="tel:+554136671277" class="footer__link footer__link--with-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              (41) 3667-1277
+            </a>
+          </li>
+          <li>
+            <a href="mailto:contato@sboequipamentos.com.br" class="footer__link footer__link--with-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              contato@sboequipamentos.com.br
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3 class="footer__heading">Endereço</h3>
+        <p class="footer__address footer__address--with-icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Rua Guilherme Weiss, 208<br>Pinhais - PR · 83323-200<br>Atendimento: Pinhais, Curitiba e Região Metropolitana</span>
+        </p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__container">
+        <p class="footer__copyright">© 2026 SBO. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="../assets/js/main.js"></script>
+  <script>
+    (function () {
+      /* Formulário de orçamento: validação no cliente e encaminhamento para o
+       * WhatsApp da SBO com os dados preenchidos.
+       * Campos exigidos e suas validações:
+       *   nome / telefone / necessidade / mensagem -> obrigatórios;
+       *   email                                   -> obrigatório e formato válido. */
+      var form = document.getElementById('budgetForm');
+      var successBox = document.getElementById('successBox');
+      if (!form) return;
+
+      // Configuração de validação por campo: id no formulário + função validadora.
+      var fields = [
+        { id: 'nome', validate: obrigatorio },
+        { id: 'email', validate: validaEmail },
+        { id: 'telefone', validate: obrigatorio },
+        { id: 'necessidade', validate: obrigatorio },
+        { id: 'mensagem', validate: obrigatorio }
+      ];
+
+      // Exibe/limpa a mensagem de erro de um campo e retorna true se estiver válido.
+      function mostrarErro(id, mensagem) {
+        var erro = document.getElementById('erro-' + id);
+        var input = document.getElementById(id);
+        if (erro) erro.textContent = mensagem;
+        if (input) {
+          input.classList.toggle('contact__input--error', !!mensagem);
+          input.setAttribute('aria-invalid', mensagem ? 'true' : 'false');
+        }
+        return !mensagem;
+      }
+
+      // Validação de campo obrigatório.
+      function obrigatorio(valor) {
+        return valor.trim() ? '' : 'Este campo é obrigatório.';
+      }
+
+      // Validação de e-mail: obrigatório + formato básico.
+      function validaEmail(valor) {
+        var msg = obrigatorio(valor);
+        if (msg) return msg;
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(valor)) {
+          return 'Informe um e-mail válido.';
+        }
+        return '';
+      }
+
+      // Valida todos os campos configurados; retorna true se não houver erros.
+      function validaForm() {
+        var ok = true;
+        fields.forEach(function (f) {
+          var input = document.getElementById(f.id);
+          if (!input) return;
+          var mensagem = f.validate(input.value);
+          if (!mostrarErro(f.id, mensagem)) ok = false;
+        });
+        return ok;
+      }
+
+      // Número de WhatsApp da SBO que recebe os orçamentos (formato internacional).
+      var WHATSAPP_NUMERO = '554136671277';
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (!validaForm()) return;
+
+        // Monta a mensagem com os dados informados no formulário.
+        var valor = function (id) {
+          var campo = document.getElementById(id);
+          return campo ? campo.value.trim() : '';
+        };
+        var mensagem = 'Olá! Vim pelo site da SBO e gostaria de solicitar um orçamento.\n\n' +
+          'Nome: ' + valor('nome') + '\n' +
+          'E-mail: ' + valor('email') + '\n' +
+          'Telefone: ' + valor('telefone') + '\n' +
+          'Necessidade: ' + valor('necessidade') + '\n' +
+          'Mensagem: ' + valor('mensagem');
+
+        // Abre o WhatsApp com a mensagem já preenchida.
+        window.open('https://wa.me/' + WHATSAPP_NUMERO + '?text=' + encodeURIComponent(mensagem), '_blank', 'noopener');
+
+        // Confirma o encaminhamento ao usuário.
+        form.hidden = true;
+        successBox.hidden = false;
+        successBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+
+      // Revalida o campo em tempo real enquanto o usuário digita.
+      form.addEventListener('input', function (e) {
+        var alvo = e.target;
+        var config = fields.filter(function (f) { return f.id === alvo.id; })[0];
+        if (!config || !alvo.value.trim()) return;
+        mostrarErro(config.id, config.validate(alvo.value));
+      });
+
+      // Remove caracteres inválidos do campo telefone (permite apenas dígitos,
+      // espaços e símbolos comuns de formatação).
+      form.addEventListener('input', function (e) {
+        if (e.target.id === 'telefone') {
+          e.target.value = e.target.value.replace(/[^\d\s()+-]/g, '');
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
